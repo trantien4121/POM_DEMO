@@ -11,7 +11,7 @@ public class LoginTests extends BaseTests{
     @Test
     public void testSuccessfullyLogin(){
         LoginPage loginPage = homePage.goToLogin();
-        loginPage.login("thanhle@logigear.com", "12345678");
+        loginPage.login("huyquoc@gmail.com", "12345678");
         assertTrue(loginPage.getSuccessTitle().contains("Welcome to Safe Railway"), "Login Failed!!");
     }
 }

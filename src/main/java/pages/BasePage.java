@@ -26,13 +26,13 @@ public class BasePage {
         }
     }
 
-    private By btnloginPage = By.xpath(Menu.Login.menuItemXpath);
+    private By btnLoginPage = By.xpath(Menu.Login.menuItemXpath);
     public BasePage(WebDriver driver) {
         this.driver = driver;
     }
 
     public LoginPage goToLogin(){
-        driver.findElement(btnloginPage).click();
+        driver.findElement(btnLoginPage).click();
         return new LoginPage(driver);
     }
 
