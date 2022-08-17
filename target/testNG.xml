@@ -3,12 +3,12 @@
 
 <suite thread-count="2" verbose="1" name = "Parallel Test Suite" annotations="JDK" parallel="tests">
 
-    <test name="test-login-Object">
+    <test name="test-login">
         <classes>
             <class name="login.LoginTests"></class>
         </classes>
     </test>
-    <test name="test-login-Json">
+    <test name="test-Open Contact Page">
         <classes>
             <class name="open.OpenContactTests"></class>
         </classes>
