@@ -27,6 +27,7 @@ public class BasePage {
     }
 
     private By btnLoginPage = By.xpath(Menu.Login.menuItemXpath);
+    private By btnContactPage = By.xpath(Menu.Contact.menuItemXpath);
     public BasePage(WebDriver driver) {
         this.driver = driver;
     }
@@ -36,5 +37,8 @@ public class BasePage {
         return new LoginPage(driver);
     }
 
+    public void goToContact(){
+        driver.findElement(btnContactPage).click();
+    }
 
 }
