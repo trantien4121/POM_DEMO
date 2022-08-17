@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "test automation">
+
+    <test name="test-login-Object">
+        <classes>
+            <class name="login.LoginTests"></class>
+        </classes>
+    </test>
+    <test name="test-login-Json">
+        <classes>
+            <class name="open.OpenContactTests"></class>
+        </classes>
+    </test>
+</suite>
