@@ -1,16 +1,17 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite thread-count="2" verbose="1" name = "Parallel Test Suite" annotations="JDK" parallel="tests">
+<suite thread-count="2" verbose="1" name="Parallel Test Suite"
+       annotations="JDK" parallel="tests">
 
-    <test name="test-login">
+    <test name="Test Login Success">
         <classes>
-            <class name="login.LoginTests"></class>
+            <class name="login.LoginTests"/>
         </classes>
     </test>
-    <test name="test-Open Contact Page">
+
+    <test name="Test Open Contact Page Success">
         <classes>
-            <class name="open.OpenContactTests"></class>
+            <class name="open.OpenContactTests"/>
         </classes>
     </test>
 </suite>
